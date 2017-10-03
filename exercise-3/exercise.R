@@ -47,7 +47,7 @@ MarbleGameFaster <- function(guess) {
 
 game <- 1
 log.results <- c()
-while (game < 1000) {
+while (game <= 1000) {
   not.won <- T
   tries <- 0
   while(not.won) {
